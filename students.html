@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+       
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
@@ -14,17 +14,12 @@
 <!--Font-awsome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!--Google Font Family-->
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
-
-
 <style>
-  body{
-    background-color: #1a73c7;
-    height: 100%;
-  }
+    body{
+        background-color: rgb(255, 253, 249);
+    }
   .herosec{
-      height: 500px;
+      height: 300px;
       width: 100%;
       background-image: url("images/hero-img.jpg");
       background-color: aqua;
@@ -38,28 +33,31 @@
     color: #1a73c7;
   }
   .sec1{
-    padding-top: 200px;
+    margin-top: 100px;
+    position:relative;   
   }
-
+  .std-form{
+    height: 700px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.103);
+  }
   .btn1{
-    height: 80px;
-    width: 200px;
+    width: 100px;
     transition: 0.5s;
     border: 0;
   }
   .btn1:hover{
-    transform:scale(1.5);
+    transform:scale(1.1);
     background-color: rgb(67, 167, 137);
     border: 0;
     color: white;
   }
-
 </style>
 
 </head>
 <body>
     <!----------------------------- Header ---------------------------------->
-    <header class="navbar navbar-expand-lg bg-white fixed-top">
+    <header class="navbar navbar-expand-lg bg-dark fixed-top">
   <div class="container-fluid">
     <h1 class="h1"><a class="text-primary fw-bold brand" href="index.html">Student Management System</a></h1>
     <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,35 +67,55 @@
     <div class="collapse text-primary navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+          <a class="nav-link active text-light" aria-current="page" href="index.html">HOME</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="#">ABOUT</a>
+          <a class="nav-link text-light" href="#">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="students.html">STUDENTS</a>
+          <a class="nav-link text-light" href="students.html">STUDENTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="add_students.html">ADD STUDENTS</a>
+          <a class="nav-link text-light" href="add_students.html">ADD STUDENTS</a>
         </li>
       </ul>
     </div>
 </nav>
     </header>
-    <!------------------------------- Section1 - Hero -------------------------------->
-    <div class="herosec ">
 
+    
+    <div class="sec1 container-fluid justify-content-center p-5">
+      <div class="text-center">
+                <input type="button" class="btn btn1 btn-primary m-1" value="New" id="btnNew">
+                <input type="button" class="btn btn1 btn-primary m-1" value="Save" id="btnSave">
+                <button type="reset" class="btn btn1 btn-warning m-1" id="btnClear">Clear</button>
+                <a href="./students.html"><input type="button" class="btn btn1 btn-danger m-1" value="Cancel" id="btnCancel"></a>
+                
+            </div>
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th>dsfsd</th>
+              <th>dsfsd</th>
+              <th>dsfsd</th>
+              <th>dsfsd</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>fdgdf</td>
+              <td>sdaf</td>
+              <td>asdasd</td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>fdgdf</td>
+              <td>sdaf</td>
+              <td>asdasd</td>
+            </tr>
+          </tbody>
+        </table>
     </div>
-    <div class="sec1 d-flex justify-content-center">
-      <div class="">
-        <a href="students.html"><button type="button" class="btn btn1 btn-light me-5 fw-bold">STUDENTS</button></a>
-        <a href="add_students.html"><button type="button" class="btn btn1 btn-light ms-5 fw-bold">ADD STUDENTS</button></a>
-      </div>
-    </div>
-
-    <!----------------------------- Footer ---------------------------------->
-    <footer class="bg-dark text-light text-center pt-3 pb-3 fixed-bottom" style="height: 50px;">
-      <p>Copyright © 2025 - SLIIT WEB DEVELOPMENT - All rights reserved</p>
-    </footer>
 </body>
 </html>
