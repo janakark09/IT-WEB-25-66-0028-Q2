@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ACADEMIC\\WDD-Sliit\\FinalProject\\StudentManage\\StudentManage.csproj": {}
+    "C:\\Users\\Jana\\Documents\\GitHub\\IT-WEB-25-66-0028-Q2\\StudentManage\\StudentManage.csproj": {}
   },
   "projects": {
-    "D:\\ACADEMIC\\WDD-Sliit\\FinalProject\\StudentManage\\StudentManage.csproj": {
+    "C:\\Users\\Jana\\Documents\\GitHub\\IT-WEB-25-66-0028-Q2\\StudentManage\\StudentManage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ACADEMIC\\WDD-Sliit\\FinalProject\\StudentManage\\StudentManage.csproj",
+        "projectUniqueName": "C:\\Users\\Jana\\Documents\\GitHub\\IT-WEB-25-66-0028-Q2\\StudentManage\\StudentManage.csproj",
         "projectName": "StudentManage",
-        "projectPath": "D:\\ACADEMIC\\WDD-Sliit\\FinalProject\\StudentManage\\StudentManage.csproj",
+        "projectPath": "C:\\Users\\Jana\\Documents\\GitHub\\IT-WEB-25-66-0028-Q2\\StudentManage\\StudentManage.csproj",
         "packagesPath": "C:\\Users\\Jana\\.nuget\\packages\\",
-        "outputPath": "D:\\ACADEMIC\\WDD-Sliit\\FinalProject\\StudentManage\\obj\\",
+        "outputPath": "C:\\Users\\Jana\\Documents\\GitHub\\IT-WEB-25-66-0028-Q2\\StudentManage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jana\\AppData\\Roaming\\NuGet\\NuGet.Config",
