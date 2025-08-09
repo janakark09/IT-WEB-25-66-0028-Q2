@@ -58,7 +58,7 @@ using StudentManage;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(75, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "78b00d718d3e4fa99149c7d3ee5479a6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "081472d7fe1645b69e9449208d08d0d8", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -138,7 +138,7 @@ using StudentManage;
                 ");
             EndContext();
             BeginContext(1521, 135, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c27f41367d25403bbf5f200d45ae4869", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed75985cc3324d159b117940deb1b4e2", async() => {
                 BeginContext(1552, 100, true);
                 WriteLiteral("<button type=\"button\" class=\"btn btn1 btn-primary m-3 ms-lg-5 ms-md-5 fw-bold\">ADD STUDENTS</button>");
                 EndContext();
