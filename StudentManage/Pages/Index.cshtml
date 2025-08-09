@@ -1,0 +1,70 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+
+<style>
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .herosec {
+        height: 300px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url("/images/hero-img.jpg");
+        background-color: aqua;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .brand {
+        text-decoration: none;
+    }
+
+    .bluecolor {
+        color: #1a73c7;
+    }
+
+    .sec1 {
+        padding-top: 80px;
+    }
+
+    .sec1_1 {
+        padding-top: 100px;
+    }
+
+    .btn1 {
+        height: 80px;
+        width: 200px;
+        transition: 0.5s;
+        border: 0;
+        margin: 15px;
+    }
+
+        .btn1:hover {
+            transform: scale(1.2);
+            background-color: rgb(67, 167, 137);
+            border: 0;
+            color: white;
+        }
+</style>
+<!------------------------------- Section1 - Hero -------------------------------->
+
+        <div class="herosec container">
+
+        </div>
+        <h1><marquee>Learn to Win : Learn to Happy</marquee></h1>
+        <div class="sec1 d-flex justify-content-center">
+            <div class="text-center">
+                <a href="/students/Index"><button type="button" class="btn btn1 btn-primary m-3 me-lg-5 me-md-5 fw-bold p-0">STUDENTS</button></a>
+                <a asp-page="/students/Create"><button type="button" class="btn btn1 btn-primary m-3 ms-lg-5 ms-md-5 fw-bold">ADD STUDENTS</button></a>
+            </div>
+        </div>
